@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Accommodation-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 29%;
+  border-radius: 5px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  padding: 0px 0px 20px 20px;
+}
+.Accommodation-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.Accommodation-img {
+  border-radius: 5px 5px 0 0;
+  width:100%;
+}
+.Accommodation-container {
+  padding: 2px 16px;
+}
+
+.wrapper {
+  position: relative;
+ 
+}
+
+.shoppingcart {
+  float: left;
+ width: 100%;
+margin: 0px 0px 10px 0px;
+padding: 0px 20px 20px 20px;
+}
+
+.accommodation {
+ float: left;
+ width: 100%;
+ margin: 0px 0px 10px 0px;
+padding: 0px 20px 20px 20px;
+ 
+}
