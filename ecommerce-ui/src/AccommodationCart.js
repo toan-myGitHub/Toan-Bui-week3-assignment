@@ -25,7 +25,7 @@ export default class AccommodationCart extends React.Component {
                 <p><b>Cost</b>: ${cost}
                 <br></br>{description}
                 </p><p><b>Host</b>: {name}
-                <br></br><b>Is host a Superhost</b>: {isSuperhost}
+                <br></br><b>Is Host a Superhost</b>: {isSuperhost}
                 <br></br><b>Rating</b>: {stars} Star
                 <br></br><b>Reviews</b>: {reviews}
                 </p>
